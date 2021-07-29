@@ -10,7 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_ml_vision: ^0.12.0+1
+  # firebase_ml_vision: ^0.12.0+1
+  firebase_ml_vision:
+    ^0.9.10
     #git:
     #  url: git://github.com/algirdasmac/flutterfire
     #  path: packages/firebase_ml_vision
@@ -25,4 +27,3 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    
